@@ -15,6 +15,7 @@
 * [jsdoc](http://xyz.com/docs) 
 
 ### Modules
+---
 #### vehicle-constructor
 ##### Vehicle Methods
 `Vehicle.drive()`
@@ -22,7 +23,7 @@
 `Vehicle.Car`
 `Vehicle.Motorcycle`
 `Vehicle.Motorcycle.wheelie()`
-
+---
  #### list
 ##### List Methods
 `List.push`
@@ -34,7 +35,7 @@
 `List.map(item)`
 `List.filter(item)`
 `List.reduce(item)`
-
+---
  ### Setup
 #### `.env` requirements
 * `npm i`
