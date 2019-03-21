@@ -6,8 +6,8 @@
 ### Author: Student/Group Name
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
+* [PR](https://github.com/hingham/lab-3-demo/pull/2)
+[![Build Status](https://www.travis-ci.com/hingham/lab-3-demo.svg?branch=master)](https://www.travis-ci.com/hingham/lab-3-demo)
 * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable)
 
