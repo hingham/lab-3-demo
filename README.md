@@ -6,14 +6,13 @@
  ### Author: Author Name
 
 ### Links and Resources
-* [PR](https://github.com/hingham/lab-3-demo/pull/2)
+* [PR submission -> master](https://github.com/hingham/lab-3-demo/pull/2)
 [![Build Status](https://www.travis-ci.com/hingham/lab-3-demo.svg?branch=master)](https://www.travis-ci.com/hingham/lab-3-demo)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [back-end](http://xyz.com)
+
 
 #### Documentation
-* [swagger](http://xyz.com) (API assignments only)
-* [jsdoc](http://xyz.com) (All assignments)
+* [jsdoc](http://xyz.com/docs) 
 
 ### Modules
 #### vehicle-constructor
