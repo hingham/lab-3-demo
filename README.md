@@ -1,46 +1,56 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+ ## Project Name: Classes-Inheritance
 
-### Author: Student/Group Name
+ ### Author: Author Name
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [PR submission -> master](https://github.com/hingham/lab-3-demo/pull/2)
+[![Build Status](https://www.travis-ci.com/hingham/lab-3-demo.svg?branch=master)](https://www.travis-ci.com/hingham/lab-3-demo)
+* [back-end](http://xyz.com)
+
 
 #### Documentation
-* [swagger](http://xyz.com) (API assignments only)
-* [jsdoc](http://xyz.com) (All assignments)
+* [jsdoc](http://xyz.com/docs) 
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### vehicle-constructor
+##### Vehicle Methods
+`Vehicle.drive()`
+`Vehicle.stop()`
+`Vehicle.Car`
+`Vehicle.Motorcycle`
+`Vehicle.Motorcycle.wheelie()`
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+ #### list
+##### List Methods
+`List.push`
+`List.pop()`
+`List.shift()`
+`List.unshift(item)`
+`List.unshift(item)`
+`List.forEach(item)`
+`List.map(item)`
+`List.filter(item)`
+`List.reduce(item)`
 
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup
+ ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `npm i`
+* `PORT` - assign a port number
 
-#### Running the app
+ #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-  
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* Endpoint: `/`
 
-#### UML
-Link to an image of the UML for your application and response to events
+ #### Tests
+* How do you run tests? 
+`npm run test`
+`npm run lint`
+* Assertions made: 
+  * Array methods work correctly and handle appropriate input
+* vehicle-class, vehicle-constructor, and vehicle-factory
+  * Car has 4 wheels, can drive, can stop, cannot do a wheelie
+  * Motorcycle has 2 wheels, can drive, can stop, cannot do a wheelie
+

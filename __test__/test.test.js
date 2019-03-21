@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 
-describe("sample test", () => {
-  it("return true", () => {
+describe('sample test', () => {
+  it('return true', () => {
     expect(true).toBe(true);
   });
 });
